@@ -1,0 +1,401 @@
+@import url("base.css");
+
+.title {   /*顶部*/
+	width: 100%;
+	height: 1.6rem;
+	border: 1px solid rgb(220,72,96);
+	box-sizing: border-box;
+	background: #dc4860;
+}
+.title .title_tb {
+	width: 7.02rem;
+	height: .5rem;
+	margin: .3rem auto 0;
+}
+/*左侧*/
+.title .title_tb .title_l {
+	float: left;
+	width: .5rem;
+	height: .5rem;
+}
+.title .title_tb .title_l a {
+	display: block;
+	width: .5rem;
+	height: .5rem;
+	font-size: .3rem;
+	color: #fff;
+	opacity: 0.7;
+}
+.title .title_tb .title_l a i {
+	font-size: .3rem;
+	opacity: 0.7;
+}
+/*右侧*/
+.title .title_tb .title_r {
+	float: right;
+	width: 1.2rem;
+	height: .6rem;
+} 
+.title .title_tb .title_r a {
+	display: block;
+	width: .6rem;
+	height: .6rem;
+	font-size: .3rem;
+	color: #fff;
+	text-align: center;
+	opacity: 0.7;
+}
+.title .title_tb .title_r a:first-child {
+	float: left;
+}
+.title .title_tb .title_r a:last-child {
+	float: right;
+}
+.title .title_tb .title_r a i {
+	font-size: .3rem;
+	opacity: 0.7;
+}
+/*店家详情*/
+.detail {
+	width: 100%;
+	height: 3.3rem;
+	/*background: red;*/
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	font-size: .22rem;
+}
+.detail .tp {   /*图片*/
+	width: 1.36rem;
+	height: 1.36rem;
+	border-radius: .2rem;
+	box-shadow: .02rem .03rem .02rem 0 rgba(147,145,146,0.71);
+	margin: -0.68rem auto 0;
+}
+.detail .tp img {
+	width: 100%;
+	height: 100%;
+	border-radius: .2rem;
+}
+.detail .name1 {   /*店名*/
+	display: block;
+	width: 100%;
+	height: .3rem;
+	margin: .1rem auto;
+	font-size: .28rem;
+	color: #000000;
+	opacity: 0.8;
+	font-weight: bold;
+}
+.detail .name2 {   /*评价*/
+	display: block;
+	width: 100%;
+	height: .2rem;
+	margin: .2rem auto;
+	font-size: .2rem;
+	color: #000000;
+	opacity: 0.5;
+}
+.detail .yh {     /*优惠*/
+	width: 3.26rem;
+	height: .84rem;
+	margin: 0 auto;
+	color: #FFFFFF;
+	background: linear-gradient(to right,rgb(220,72,96),rgb(224,74,98),rgb(235,78,104));
+}
+.detail .yh .yhto {
+	width: 2.84rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.detail .yh .price {
+	width: .7rem;
+	height: .24rem;
+	opacity: 0.8;
+}
+.detail .yh .price .pri {
+	font-size: .24rem;
+	float: left;
+}
+.detail .yh .price .rmb {
+	font-size: .2rem;
+	float: right;
+}
+.detail .yh .k {
+	width: .04rem;
+	height: 100%;
+}
+.detail .yh .k .kong {
+	display: block;
+	width: .04rem;
+	height: .1rem;
+	background: #fff;
+	margin-bottom: .1rem;
+}
+.detail .yh .wmk {
+	font-size: .24rem;
+	opacity: 0.8;
+	/*margin-left: -0.5rem;*/
+}
+.detail .yh .lq {
+	width: .72rem;
+	height: .3rem;
+	background: #FFFFFF;
+	border-radius: .15rem;
+	color: rgb(233,75,107);
+	font-size: .24rem;
+	text-align: center;
+	line-height: .3rem;
+}
+.detail .mj {  /*满减*/
+	display: block;
+	width: 100%;
+	height: .2rem;
+	margin: .2rem auto;
+	font-size: .22rem;
+	color: #000000;
+	opacity: 0.5;;
+}
+.jg {
+	width: 100%;
+	height: .24rem;
+	background: rgb(244,244,244);
+}
+/*店铺内容*/
+.smallCon {
+	width: 100%;
+	height: 6.75rem;
+	/*background: red;*/
+}
+.contain {
+	width: 100%;
+	height: auto;
+	/*background: red;*/
+}
+.contain .conList {
+	width: 3.88rem;
+	height: .44rem;
+	margin: .24rem auto;
+}
+.contain .conList a {
+	display: block;
+	width: 1.08rem;
+	height: .44rem;
+	float: left;
+	display: flex;
+	justify-content: center;
+	margin-right: .32rem;
+}
+
+.contain .conList span {
+	width: 1.08rem;
+	height: .44rem;
+	background: rgb(244,244,244);
+	color: #868686;
+	font-size: .24rem;
+	text-align: center;
+	line-height: .44rem;
+	border-radius: .4rem;
+}
+.contain .conList a:last-child {
+	margin-right: 0;
+}
+.contain .conList a.hot span{
+	background: linear-gradient(rgb(220,72,96),rgb(235,78,104));
+	color: #424242;
+}
+.cons {
+	width: 100%;
+	height: 5.16rem;
+	display: flex;
+	/*background: red;*/
+}
+/*左侧*/   
+.contain .conKind {
+	width: 1.5rem;
+	height: 5.16rem;
+	margin: 0 .24rem;
+	float: left;
+	/*background: red;*/
+}
+.contain .conKind li {   /*左边每个li的设置*/
+	width: 1.5rem;
+	height: .86rem;
+	background: rgb(244,244,244);
+	/*color: red;*/
+	font-size: .24rem;
+	text-align: center;
+	line-height: .86rem;
+}
+.contain .conKind li a {
+	display: block;
+	position: absolute;
+	width: 1.5rem;
+	height: .86rem;
+	color: #868686;
+	float: left;
+	display: flex;
+	justify-content: center;
+}
+
+.contain .conKind a.hot {
+	background: linear-gradient(rgb(220,72,96),rgb(235,78,104));
+	color: #FFFFFF;
+} 
+/*右侧*/
+.cons .con_r {
+	width: 5.04rem;
+	height: 100%;
+	float: right;
+	/*padding-right: .24rem;*/
+}
+.cons .con_r .sjcon {   /*每个整体div的设置*/
+	height: 1.5rem;
+	/*background: red;*/
+	font-size: .24rem;
+	border-bottom: 1px solid #f4f4f4;
+	margin-bottom: .24rem;
+}
+.cons .con_r .sjcon .logo {    /*图片的设置*/
+	width: 1.28rem; 
+	height: 1.28rem;
+	float: left;
+	margin-right: .24rem;
+}
+.cons .con_r .sjcon .logo img {
+	width: 100%;
+	height: 100%;
+}
+.cons .con_r .sjcon .sj_detail {   /*整体右边的右边*/
+	float: right;
+	width: 3.52rem;
+	height: 1.36rem;
+}
+.cons .con_r .sjcon .sj_detail a {
+	display: block;
+	width: 100%;
+	height: .3rem;
+	font-size: .28rem;
+	color: #000000;
+	opacity: 0.8;
+	font-weight: bold;
+}
+.cons .con_r .sjcon .sj_detail .xs {
+	display: block;
+	width: 100%;
+	height: .2rem;
+	margin: .1rem 0;
+	font-size: .2rem;
+	color: #000000;
+	opacity: 0.4;
+}
+.cons .con_r .sjcon .sj_detail .pri_con {
+	width: 100%;
+	height: .5rem;
+	position: relative;
+}
+.cons .con_r .sjcon .sj_detail .p {
+	display: block;
+	width: 50%;
+	height: .3rem;
+	margin: .3rem 0 0;
+	font-size: .3rem;
+	color: rgb(235,78,105);
+	float: left;
+	/*margin-top: .1rem;*/
+}
+.cons .con_r .sjcon .sj_detail .pri_con .icon-jia {   /*加号*/
+	float: right;
+	position: absolute;
+	font-size: .46rem;
+	right: -0.1rem;
+	top: .1rem;
+	color: rgb(220,72,96);
+}
+
+
+/*底部*/
+.footer {
+	width: 100%;
+	height: 1.45rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.footer .jian {   /*底部上边*/
+	width: 100%;
+	height: .5rem;
+	background: #f9d6e6;
+	font-size: .24rem;
+	text-align: center;
+}
+.footer .jian span {
+	display: block;
+	width: 3rem;
+	height: .24rem;
+	margin:  0 auto;
+	line-height: .49rem;
+	font-size: .24rem;
+}
+.footer .info {   /*底部下边*/
+	width:  100%;
+	height: .98rem;
+	background: #000000;
+}
+.footer .info .ts {   /*底部下边右边*/
+	width: 2.8rem;
+	height: 100%;
+	background: rgb(90,88,89);
+	float: right;
+	text-align: center;
+}
+.footer .info .ts span{
+	font-size: .26rem;
+	display: block;
+	width: 2.4rem;
+	height: .26rem;
+	color: #dcdcdc;
+	margin: 0 auto;
+}
+.footer .info .ts span:first-child {
+	margin-top: .2rem;
+	margin-bottom: .03rem;
+}
+.footer .info .zt  {   /*左边*/
+	width: 3rem;
+	float: left;
+	position: relative;
+}
+.footer .info .zt a {
+	display: block;
+	width: .76rem;
+	height: .76rem;
+	position: absolute;
+	left: .2rem;
+	top: -0.3rem;
+}
+.footer .info .zt img {
+	width: .76rem;
+	height: .76rem;
+	position: absolute;
+}
+.footer .info .zt .shop_con {
+	width: 1.46rem;
+	height: 100%;
+	position: absolute;
+	left: 1.16rem;
+}
+.footer .info .zt span {
+	font-size: .22rem;
+	display: block;
+	width: 2.4rem;
+	height: .26rem;
+	color: #d4d4d4;
+}
+.footer .info .zt span:first-child {
+	margin-top: .15rem;
+	margin-bottom: .03rem;
+}

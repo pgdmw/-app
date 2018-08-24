@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);  /*去掉高亮颜色*/
+	-webkit-text-size-adjust: none;    /*禁止用户修改字体大小，防止页面有错乱*/
+}
+a{
+	text-decoration: none;
+}

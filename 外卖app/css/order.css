@@ -1,0 +1,191 @@
+@import url("base.css");
+
+.header {
+	width: 100%;
+	height: .9rem;
+	background: #dc4860;
+	padding: 0 .24rem 0;
+	text-align: center;
+	line-height: .9rem;
+}
+.header > h1 {
+	font-size: .3rem;
+	font-weight: normal;
+	color: #FFFFFF;
+	opacity: .8;
+}
+/*订单*/
+.orderList {
+	width: 100%;
+	height: 11.46rem;
+	background: #F2F2F2;
+	/*padding: 0 0.24rem 0;*/
+	border: 1px solid #F2F2F2;
+	box-sizing: border-box;
+}
+.orderList .order_con {
+	margin-top: .24rem;
+	width: 7.02rem;
+	height: 2.28rem;
+	margin: .24rem auto;
+	background: #FFFFFF;
+	border-radius: .1rem;
+	box-shadow: .01rem .03rem .04rem rgba(236,234,234,0.78);
+}
+.orderList .order_con .order_con_l {
+	width: 1.24rem;
+	height: 1.24rem;
+	margin: .24rem;
+	float: left;
+}
+.orderList .order_con .order_con_l img {
+	display: block;
+	width: 1.24rem;
+	height: 1.24rem;
+}
+/*右侧*/
+.orderList .order_con .order_con_r {
+	float: right;
+	width: 5.3rem;
+	height: 100%;
+	font-size: .2rem;
+	margin-top: .2rem;
+	/*background: red;*/
+}
+.orderList .order_con .order_con_r .order_zt {    /*第一行*/
+	width: 100%;
+	height: .3rem;
+}
+.orderList .order_con .order_con_r .name1 {   /*汉堡王*/
+	font-size: .28rem;
+	opacity: .9;
+	float: left;
+	font-weight: bold;
+}
+.orderList .order_con .order_con_r .zt {    /*订单已送达*/
+	float: right;
+	opacity: .6;
+	font-size: .24rem;
+	margin-right: .2rem;
+}
+.orderList .order_con .order_con_r .dj {    /*小星星*/
+	width: 1.5rem;
+	height: .2rem;
+	margin-top: .16rem;
+	position: relative;
+}
+.orderList .order_con .order_con_r .dj img {
+	width: 1.5rem;
+	height: .2rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.orderList .order_con .order_con_r .dj .yello {   /*黄色*/
+	width: 80%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+.orderList .order_con .order_con_r .order_time {   /*时间，价钱*/
+	width: 100%;
+	height: .3rem;
+	/*background: red;*/
+	margin-top: .14rem;
+}
+.orderList .order_con .order_con_r .order_time .time {   /*时间*/
+	display: block;
+	width: 2rem;
+	height: .2rem;
+	float: left;
+	font-size: .2rem;
+	opacity: .6;
+}
+.orderList .order_con .order_con_r .order_time .money {  /*价钱*/
+	float: right;
+	color: rgb(247,54,129);
+	/*opacity: .6;*/
+	font-size: .3rem;
+	margin-right: .45rem;
+}
+
+.orderList .order_con .order_con_r .orderXq {   /*再来一单,评价*/
+	width: 2.42rem;
+	height: .44rem;
+}
+.orderList .order_con .order_con_r .orderXq ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: .16rem;
+}
+.orderList .order_con .order_con_r a {
+	width: 1.12rem;
+	height: .44rem;
+	display: block;
+	color: #FFFFFF;
+}
+.orderList .order_con .order_con_r li:first-child {
+	background: linear-gradient(to right,rgb(235,78,104),rgb(229,73,108));
+}
+.orderList .order_con .order_con_r li:last-child {
+	/*margin-right: 0;*/
+	background: linear-gradient(to right,rgb(48,167,183),rgb(61,210,225));
+}
+.orderList .order_con .order_con_r li {
+	width: 1.12rem;
+	height: .44rem;
+	border-radius: .44rem;
+	color: #FFFFFF;
+	font-size: .2rem;
+	text-align: center;
+	line-height: .44rem;
+}
+
+
+
+
+/*底部*/
+.footer {
+	width: 100%;
+	height: .98rem;
+	background: #fff;
+	overflow: hidden; 
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.footer ul {
+	width: 7.02rem;
+	height: 100%;
+	margin: 0  auto;
+	display: flex;
+	justify-content: space-between;	
+	background: #FFFFFF;
+}
+.footer ul li {
+	height: 100%;
+	text-align: center;
+}
+.footer li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #000000;
+	text-align: center;
+
+}
+.footer li i {
+	display: block;
+	font-size: .32rem;
+	margin-top: .2rem;
+	opacity: 0.5;
+}
+.footer li p {
+	opacity: 0.5;
+	font-size: .22rem;
+}
+.footer li .hot {
+	color: rgb(233,75,107);
+}
